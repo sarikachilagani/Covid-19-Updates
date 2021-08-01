@@ -11,10 +11,4 @@ import com.springboot.app.model.VaccineModel;
 @Repository
 public interface VaccineRepo extends JpaRepository<VaccineModel,Long> {
 
-	Optional<VaccineModel> findById(Long stateId);
-
-	void deleteById(Long stateId) ;
-		
-	
-
 }
